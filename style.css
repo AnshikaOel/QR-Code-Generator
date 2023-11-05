@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(126, 123, 123);
+}
+p{
+    width: 100px;
+    height: 100px;
+    font-size: 70px;
+    justify-content: center;
+    display: flex;
+    margin-top: 5%;
+    margin-left: 45%;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+    text-shadow: 2px 2px 2px rgb(0, 234, 255);
+    
+}
+.box{
+    padding: 24px;
+    width: 50%;
+    margin: auto;
+    height: 60%;
+    margin-top: 5%;
+    border-radius: 5px;
+    box-shadow: inset;
+    background-color: rgb(244, 244, 249);
+    box-shadow: 3px 3px 10px rgb(157, 243, 243);
+}
+
+.buton{
+    justify-content: center;
+    display: flex;
+}
+.buton :hover{
+    transform: translateX(-5px);
+    transform: translateY(-5px);
+    background-color: black;
+}
+.btn{
+    background-color: black;
+    box-shadow: 2px 2px 2px #808080;
+}
+
+#imgBOX{
+    justify-content: center;
+    display: flex;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s;
+}
+
+#QRimg{
+padding: 15px;
+}
+
+#imgBOX.showimg{
+    max-height: 300px;
+    margin: 10px auto;
+}
